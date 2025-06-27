@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <!--
         Course Name: CIS133DA
@@ -12,22 +12,22 @@
     <meta name="description" content="Page used to demonstrate different CSS styles including font type, size and color.">
 </head>
 <body>
-    <header>
-        <h1>Applying Inline CSS</h1>
-        <p>"Don't count the days, make the days count." - Muhammad Ali</p>
+    <header style="text-align:center">
+        <!--if "Calibri" is not available, the browser will select the default font in the "sans-serif" font family to render the text--><h1 style="font-family: Calibri, 'sans-serif'; font-size:larger; color:#45b39d">Applying Inline CSS</h1>
+        <!--The FONT-WEIGHT Property can be identified by one of three values: Keyword, Relative or Number--><p style="font-weight:bolder">"Don't count the days, make the days count." - Muhammad Ali</p>
         <!--hyperlink to be added at later time in the lesson
             <nav>
             <a href="#">Placeholder Link</a>
         </nav> not used currently-->
     </header>
     <main>
-        <h2>Generic Font Families</h2>
-        <p>There are several font family types that can be designated for html content, some of the more common ones include: Serif, Sans-Serif, Proportional and Monospace. Serif-family fonts include letters with serifs on the ends like a little flag. Sans-serif (as in without) indicates font letters that don't include these flags. Proportional refers to font spacing. In this family a letter occupies space proportional to its size. So for example, a wide letter takes up more space than narrower letters. Monospace on the other hand uses an identical amount of space for each letter no matter its shape ("Lesson 5," 2022).</p><br>
-        <h2>Applying Color</h2>
-        <p>There are 3 different ways color can be added inline to HTML content: RBG, Hexadecimal, and Common color names. All three color options must start with the CSS property used to colorize text: "color:." RGB utilizes 3 color values laid on top of each other to create a color mix. These color "channels" are: red, green and blue ("Lesson 5," 2022). Hexadecimal color values are represented by codes that include letters, numbers or a combination of the two. The letters range from A-F and the numbers range from 0-9. The code must be preclassified with a "#" symbol. An example is: <span style="color:#E60000">#E60000</span> ("Lesson 5," 2022).The final and simplest wat to add color is use color names, 140 unique color names are available such as <span style="color:navy"><b>Navy Blue</b></span> ("Lesson 5," 2022).  </p> <!--Saving completion of part 1 of Lesson 5. Commit applied to add Generic font family and color coding descriptions as well as updated footer and header information.-->
+        <h2 style="color:teal">Generic Font Families</h2>
+        <p style="font:larger Arial, Aptos, sans-serif;">There are several font family types that can be designated for html content, some of the more common ones include: Serif, Sans-Serif, Proportional and Monospace. Serif-family fonts include letters with serifs on the ends like a little flag. Sans-serif (as in without) indicates font letters that don't include these flags. Proportional refers to font spacing. In this family a letter occupies space proportional to its size. So for example, a wide letter takes up more space than narrower letters. Monospace on the other hand uses an identical amount of space for each letter no matter its shape ("Lesson 5," 2022).</p><br>
+        <h2 style="color:RGB(69, 179, 157);">Applying Color</h2>
+        <p style="font: 18px 'Times New Roman', Georgia, serif;">There are 3 different ways color can be added inline to HTML content: RBG, Hexadecimal, and Common color names. All three color options must start with the CSS property used to colorize text: "color:." RGB utilizes 3 color values laid on top of each other to create a color mix. These color "channels" are: red, green and blue ("Lesson 5," 2022). Hexadecimal color values are represented by codes that include letters, numbers or a combination of the two. The letters range from A-F and the numbers range from 0-9. The code must be preclassified with a "#" symbol("Lesson 5," 2022). An example is: <span style="color:#E60000">#E60000</span>.The final and simplest way to add color is use color names, 140 unique color names are available ("Lesson 5," 2022) such as <span style="color:navy"><b>Navy</b></span> .  </p> <!--Saving completion of part 1 of Lesson 5. Commit applied to add Generic font family and color coding descriptions as well as updated footer and header information.-->
 
     </main>
-    <footer>
+    <footer style="text-align:right">
         <hr>
         <p>References</p>
         <p><small>Lesson 5: Introduction to CSS. (2022). Retrieved from https://riosalado.coursearc.com/content/cis133da-in-v12/lesson-5-introduction-css/changing-basic-font-information</small></p>
